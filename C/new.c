@@ -1,6 +1,13 @@
-#include <stdio.h>
+#include "stdio.h"
+
 int main() {
-    // printf() displays the string inside quotation
-    printf("Hello World!");
+    int a = 17, b = 25, c = 50, d = 10;
+
+    a += a++;		
+    printf("a = %d, b = %d, c = %d, d = %d\n", a, b, c, d);
+
+    a += ++a;	
+    printf("a = %d, b = %d, c = %d, d = %d\n", a, b, c, d);
+    
     return 0;
 }
