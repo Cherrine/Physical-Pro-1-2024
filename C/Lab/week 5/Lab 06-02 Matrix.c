@@ -12,9 +12,9 @@ int main() {
     // Start Calculation
     float temp;
     for (int i = 0; i < 3; i++) {
-        for (int j=0;j<3;j++){
+        for (int j = 0; j < 3; j++){
             temp = 0;
-            for (int k=0; k<3;k++){
+            for (int k=0; k<3; k++){
                 temp += met_a[i][k] * met_b[k][j];
             }
             result[i][j] = temp;
